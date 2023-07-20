@@ -35,7 +35,7 @@ const MedalsChart = ({ data }) => {
     }
   }, [years, medals]);
 
-  return <canvas ref={chartRef} style={{ height: '300px', width: '500px' }} />;
+  return <div style={{ height: '300px', width: '500px' }}><canvas ref={chartRef}  /> </div> 
 };
 
 export default MedalsChart;
